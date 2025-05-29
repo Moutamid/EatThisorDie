@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+
+    <LinearLayout
+        android:id="@+id/header_card"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+
+        android:background="#FF3B30"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_my_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/bold"
+            android:gravity="center"
+            android:text="Terms and Conditions"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_back" />
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bg"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="22dp"
+        android:fontFamily="@font/black"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="By using this app, you agree to the following:
+
+ \n\n      \u25CF All dares must be legal, non-harmful, and respectful. No hate speech, abuse, or illegal activity is allowed.
+\n\n      \u25CF Coins are used to post dares or boost them. They are virtual and have no real-world value. Coins collected on a dare go to the best video submission.
+\n\n      \u25CF Videos must clearly complete the dare. No fake or reused content. By uploading, you give us permission to show your video in the app.
+\n\n      \u25CF You take full responsibility for the actions you perform. Do not attempt dangerous dares. Your safety is your responsibility.
+\n\n      \u25CF We review and may remove dares or videos that break our rules. Repeated violations may lead to a ban.
+\n\n      \u25CF We do not share your personal data without permission. Read our full privacy policy for details.
+\n\n      \u25CF Need Help? Contact our support if you have any issues."
+        android:textColor="@color/white" />
+</RelativeLayout>
