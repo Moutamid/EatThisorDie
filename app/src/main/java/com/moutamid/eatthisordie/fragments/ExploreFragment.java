@@ -38,7 +38,6 @@ public class ExploreFragment extends Fragment {
 
         adapter = new ImageAdapter(getContext(), imageList);
         recyclerView.setAdapter(adapter);
-
         return view;
     }
 }

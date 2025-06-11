@@ -30,23 +30,36 @@
             android:layout_weight="1"
 
             android:background="@android:color/transparent"
-            android:padding="5dp"
+            android:padding="10dp"
             android:src="@drawable/ic_home"
             android:tint="@android:color/white" />
 
-        <ImageButton
+        <ImageView
+            android:id="@+id/btnCoins"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+
+            android:background="@android:color/transparent"
+            android:src="@drawable/coins"
+            android:tint="@android:color/white" />
+  <ImageView
             android:id="@+id/btnNotification"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:padding="10dp"
+
             android:background="@android:color/transparent"
             android:src="@drawable/ic_statistics"
             android:tint="@android:color/white" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/btnProfile"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:padding="10dp"
             android:layout_weight="1"
             android:background="@android:color/transparent"
             android:src="@drawable/ic_profile"/>

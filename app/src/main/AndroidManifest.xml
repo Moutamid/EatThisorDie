@@ -13,6 +13,12 @@
         android:theme="@style/Theme.EatThisorDie"
         tools:targetApi="31">
         <activity
+            android:name=".activities.Dare.RecordDareActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fragments.CoinsFragment"
+            android:exported="false" />
+        <activity
             android:name=".ExploreActivity"
             android:exported="false" />
         <activity
