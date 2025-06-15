@@ -31,7 +31,7 @@
             android:layout_marginTop="15dp"
             android:fontFamily="@font/bold"
             android:gravity="center"
-            android:text="About"
+            android:text="Privacy Policy"
             android:textColor="#FFFFFF"
             android:textSize="22sp"
             android:textStyle="bold" />
@@ -53,16 +53,71 @@
             android:layout_marginTop="25dp"
             android:layout_marginEnd="22dp"
             android:fontFamily="@font/regular"
-            android:text="Welcome to"
+            android:text="We respect your privacy and are committed to protecting your personal information. Here's how we handle your data:"
             android:textColor="#FFFFFF"
             android:textSize="14sp" />
 
-        <ImageView
-            android:layout_width="170dp"
-            android:layout_height="30dp"
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="22dp"
-            android:layout_marginEnd="16dp"
-            android:src="@drawable/title" />
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="@font/black"
+            android:text="What We Collect:"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="12dp"
+
+            android:fontFamily="@font/regular"
+            android:text="\u25CF   Basic info: username, email, profile image
+\n\n\u25CF   App usage data (e.g. posts, coins used, videos submitted)
+\n\n\u25CF   Device info (for improving app performance)"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="@font/black"
+            android:text=" How We Use It:"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="12dp"
+
+            android:fontFamily="@font/regular"
+            android:text="\u25CF   To run the app and manage dare posts
+\n\n\u25CF   To improve user experience and app features
+\n\n\u25CF   To prevent fraud or harmful behavior
+\n\n\u25CF   We do not sell your data to third parties"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="@font/black"
+            android:text="Data Storage:"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -71,78 +126,15 @@
             android:layout_marginTop="25dp"
             android:layout_marginEnd="12dp"
             android:fontFamily="@font/regular"
-            android:text="A bold new way to challenge, create, and earn! This is a dare-based social platform where users post dares using coins, others boost those dares by adding more coins, and the best video submission wins it all."
-            android:textColor="#FFFFFF"
-            android:textSize="14sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="22dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="12dp"
-            android:fontFamily="@font/heading_font"
-            android:text="What You Can Do:"
-            android:textColor="@color/red"
-            android:textSize="12sp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="22dp"
-            android:layout_marginTop="17dp"
-            android:layout_marginEnd="12dp"
-
-            android:fontFamily="@font/regular"
-            android:text="\u25CF  Post exciting or creative dares
-\n\n\u25CF  Earn coins by completing dares well
-\n\n\u25CF  Build your reputation through top submissions
-\n\n\u25CF  Explore trending, rising, or most-backed challenges"    android:textColor="#FFFFFF"
-            android:textSize="14sp" />
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="22dp"
-            android:layout_marginTop="22dp"
-            android:layout_marginEnd="12dp"
-            android:fontFamily="@font/heading_font"
-            android:text="What You Can Do:"
-            android:textColor="@color/red"
-            android:textSize="12sp" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="22dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginEnd="12dp"
-            android:fontFamily="@font/regular"
-            android:text="We’re redefining how challenges work online — fun, safe, and rewarding. It’s not just about likes, it’s about action."
-            android:textColor="#FFFFFF"
-            android:textSize="14sp" />
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="22dp"
-            android:layout_marginTop="18dp"
-            android:layout_marginEnd="12dp"
-            android:fontFamily="@font/heading_font"
-            android:text="Need help?"         android:textColor="@color/red"
-            android:textSize="12sp" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="22dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginEnd="12dp"
-            android:fontFamily="@font/regular"
-            android:text="Email us at support@eatthisordie.com"
+            android:text="\u25CF   Your data is stored securely on our servers
+\n\n\u25CF   We follow industry standards to protect it"
             android:textColor="#FFFFFF"
             android:textSize="14sp" />
 
     </LinearLayout>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2AFFFFFF" />
 </RelativeLayout>

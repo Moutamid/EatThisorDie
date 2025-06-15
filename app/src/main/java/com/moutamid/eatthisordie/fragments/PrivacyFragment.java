@@ -11,15 +11,15 @@ import android.widget.ImageView;
 
 import com.moutamid.eatthisordie.R;
 
+public class PrivacyFragment extends Fragment {
 
-public class Terms_and_Condition_Fragment extends Fragment {
     ImageView back_btn;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_terms_and__condition_, container, false);
+        View view = inflater.inflate(R.layout.fragment_privacy, container, false);
         back_btn=view.findViewById(R.id.back_btn);
         back_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,5 +29,4 @@ public class Terms_and_Condition_Fragment extends Fragment {
         });
         return view;
     }
-
 }

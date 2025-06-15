@@ -9,20 +9,19 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.moutamid.eatthisordie.R;
 
-public class RecordDareActivity extends AppCompatActivity {
-    ImageView record_video;
+public class SubmitActivity extends AppCompatActivity {
+    ImageView submit_record;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_record_dare);
-        record_video = findViewById(R.id.record_video);
-        record_video.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.activity_submit);
+        submit_record = findViewById(R.id.submit_record);
+        submit_record.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(RecordDareActivity.this, SubmitActivity.class));
+                startActivity(new Intent(SubmitActivity.this, UploadActivity.class));
             }
         });
     }
-
 }

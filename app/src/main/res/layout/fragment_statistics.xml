@@ -8,44 +8,9 @@
     android:orientation="vertical"
     android:padding="15dp">
 
-    <!-- Top Bar -->
-    <RelativeLayout
-        android:id="@+id/top_bar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@android:color/transparent"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:padding="16dp">
-
-
-        <ImageView
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:src="@drawable/title" />
-
-        <ImageView
-            android:layout_width="22dp"
-            android:layout_height="22dp"
-            android:layout_marginTop="7dp"
-            android:layout_marginEnd="16dp"
-            android:layout_toLeftOf="@+id/notification"
-            android:src="@drawable/search"
-            app:tint="@android:color/white" />
-
-        <ImageView
-            android:id="@+id/notification"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_alignParentEnd="true"
-            android:layout_gravity="end"
-            android:layout_marginTop="7dp"
-            android:src="@drawable/notification"
-            app:tint="@android:color/white" />
-    </RelativeLayout>
 
     <RelativeLayout
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
